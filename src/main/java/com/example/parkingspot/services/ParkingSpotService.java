@@ -1,5 +1,6 @@
-package com.api.parkingcontrol.services;
+package com.example.parkingspot.services;
 
+import com.example.parkingspot.repositories.ParkingSpotRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
