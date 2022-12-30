@@ -1,6 +1,7 @@
 package com.example.parkingspot.models;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -8,6 +9,7 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "parking_spot")
+@Data
 public class ParkingSpotModel implements Serializable {
 
     private final static long serialVersionUID = 1L;
@@ -43,11 +45,4 @@ public class ParkingSpotModel implements Serializable {
     @Column(nullable = false, length = 30)
     private String block;
 
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
 }
