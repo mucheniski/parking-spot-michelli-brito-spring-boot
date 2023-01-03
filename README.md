@@ -11,7 +11,7 @@ E a implementacao utilizada pelo spring framework para aplicar a inversao de con
 E um objeto que e instanciado, montado e gerenciado por um container do spring atraves da Inversao de Controle (IoC) e injecao de dependencia.  
 Exemplos de estereotipos do Spring:  @Component, @Service, @Repository, @Controller.  
 
-continuar em 49:30
+continuar em 01:14:00
 
  
 
